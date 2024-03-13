@@ -1,0 +1,76 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Wenping Zou"
+description = "An easy reading Hugo blog with night-mode."
+theme = "min_night"
+disqusShortname = ""
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
+
+
+[params]
+    author = "Nate Day"
+    #description = "An easy reading Hugo blog with night-mode."
+    logo = "favicon/pic2.jpg"
+    twitterAuthor = "@Wenping Zou"
+    githubUsername = "zouwenping1991"
+    accent = "#386890" # dark colors do best
+    backgroundColor = "#f5f5f5"
+    font = "Mina" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "lakeside-light" # make this match accent
+    highlightLanguages = ["r", "bash", "go"]
+
+# adjust these as you see fit
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+    
+[[menu.main]]
+    url = "/About me/"
+    name = "About me" 
+    weight = 2
+
+[[menu.main]]
+    url = "/Research/"
+    name = "Research"
+    weight = 3
+
+[[menu.main]]
+    url = "/Publications/"
+    name = "Publications"
+    weight = 4
+
+[[menu.main]]
+    url = "/Teaching/"
+    name = "Teaching"
+    weight = 5
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:zouwenping1991@gmail.com"
+    name = "far fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/zouwenping1991"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/WenpingZou16959"
+    name = "fab fa-twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/wenping-zou-257a591b2/"
+    name = "fab fa-linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://scholar.google.com/citations?user=J4kyougAAAAJ&hl=en"
+    name = "fab fa-google-scholar"
+    weight = 5
